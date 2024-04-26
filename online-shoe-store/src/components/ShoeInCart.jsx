@@ -25,7 +25,7 @@ export default function ShoeInCart(props) {
     >
       <img src={props.shoe.imgSrc} />
       <div
-       style={{marginLeft:"20px"}}
+       style={{marginLeft:"20px",width:"200px"}}
       >
         <h4 style={{ marginTop: "-8px" }}>{props.shoe.name}</h4>
         <h4 style={{ marginTop: "-20px" }}>${props.shoe.price}</h4>

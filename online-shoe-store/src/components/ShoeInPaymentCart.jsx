@@ -12,7 +12,7 @@ export default function ShoeInPaymentCart(props) {
        style={{ display: "flex", justifyContent: "space-evenly" }}
       >
       <div
-       style={{marginLeft:"20px"}}
+       style={{marginLeft:"20px",width:"250px"}}
       >
         <h3 style={{ marginTop: "-8px" }}>{props.shoe.name}</h3>
         <h4 style={{ marginTop: "-10px" }}>${props.shoe.price}</h4>
